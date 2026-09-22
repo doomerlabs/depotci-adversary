@@ -20027,7 +20027,7 @@ function toPosixPath2(path) {
 function createApp() {
   const app = new Adversary({
     name: "depotci",
-    version: "0.0.23",
+    version: "0.0.24",
     review: { maximumFindings: 8 }
   });
   registerDepotRules(app);
